@@ -1,0 +1,89 @@
+@font-face {
+    font-family:'Passion' ;
+    src: url('fontes/PassionOne-Bold.ttf');
+}
+@font-face {
+    font-family:'racha' ;
+    src: url('fontes/Sriracha-Regular.ttf');
+}
+*{
+    margin: 0px;
+    background-size: cover;
+  
+   
+}
+header{
+    background-color: black;
+    color: white;
+}
+header h1{
+    font-family: 'Passion',Arial, Helvetica, sans-serif;
+    font-size: 8em;
+    text-align: center;
+    background-size: cover;
+    padding-bottom: 50px;
+    padding-top: 50px;
+   
+    
+    
+   }
+header p {
+    text-align: center;
+    font-size: large;
+    padding-bottom: 80px;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin-top: 0px;
+}
+p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+   
+
+}
+p a:hover{
+    text-decoration: underline;
+
+}
+
+div{
+    font-style: italic;
+    font-family: 'racha',Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: 100;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   line-height:3.5em;
+    
+}
+
+
+.flor{
+    color: white;
+    padding-top: 50px;
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.preto{
+    background-position: abso;
+    background-color: rgba(0, 0, 0, 0.144);
+    margin-right: 875px;
+    
+}
+.folha{
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: x-large;
+}
