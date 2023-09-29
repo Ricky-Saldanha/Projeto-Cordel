@@ -53,7 +53,7 @@ div{
     background-color: white;
     font-style: italic;
     font-family: 'racha',Arial, Helvetica, sans-serif;
-    font-size: 5vh;
+    font-size: 3vh;
     font-weight: 100;
     padding-left: 50px;
     padding-top: 50px;
@@ -75,9 +75,9 @@ div{
     
 }
 .preto{
-    background-position: abso;
+    background-position: left top;
     background-color: #00000025;
-    width: 700px;
+    width: 70vh;
     
 }
 .folha{
