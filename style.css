@@ -8,10 +8,14 @@
 }
 *{
     margin: 0px;
+    padding: 0px;
     background-size: cover;
     background-size: 100%;
   
-   
+}
+html body{
+    min-height: 100%vh;
+    background-color: darkgray;
 }
 header{
     background-color: black;
@@ -19,21 +23,20 @@ header{
 }
 header h1{
     font-family: 'Passion',Arial, Helvetica, sans-serif;
-    font-size: 8em;
+    font-size: 20vh;
     text-align: center;
     background-size: cover;
     padding-bottom: 50px;
     padding-top: 50px;
-   
+    font-variant: small-caps;
     
     
    }
 header p {
     text-align: center;
     font-size: large;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
     font-family: Verdana, Tahoma, sans-serif;
-    margin-top: 0px;
 }
 p a{
     color: white;
@@ -48,36 +51,42 @@ p a:hover{
 }
 
 div{
+    background-color: white;
     font-style: italic;
     font-family: 'racha',Arial, Helvetica, sans-serif;
-    font-size: xx-large;
+    font-size: 5vh;
     font-weight: 100;
     padding-left: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
-   line-height:3.5em;
+    line-height:2em;
     
 }
 
 
 .flor{
     color: white;
-    padding-top: 50px;
+    padding-top: 10%vh;
+    padding-bottom: 10%vh;
     background-image: url(imagens/background001.jpg);
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
     
 }
 .preto{
     background-position: abso;
-    background-color: rgba(0, 0, 0, 0.144);
-    margin-right: 875px;
+    background-color: #00000025;
+   width: 700px;
     
 }
 .folha{
     background-image: url(imagens/background002.jpg);
     background-attachment: fixed;
-    background-position: center center;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-repeat: cover;
     color: white;
     text-shadow: 3px 3px 3px black;
 }
