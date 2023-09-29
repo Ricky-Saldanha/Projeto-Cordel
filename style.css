@@ -14,9 +14,8 @@
   
 }
 body{
-   width: 100%;
-   height: 100%;
-    background-color: darkgray;
+   width: 70vh;
+   background-color: darkgray;
 }
 header{
     background-color: black;
