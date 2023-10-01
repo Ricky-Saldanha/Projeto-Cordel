@@ -26,15 +26,52 @@ header h11{
     font-family: 'passion',Arial, Helvetica, sans-serif;
     font-size: 9vw;
     padding-bottom: 25px;
-    
-    
-    
+
 }
 header a{
     text-decoration: none;
     color: white;
     font-size: 1.5em;
 }
+a:hover{
+    color: darkorange;
+    text-decoration: underline;
+}
 header p{
     padding-bottom: 50px;
+}
+.flores{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+}
+#base{
+    background-color: rgba(7, 7, 7, 0.263);
+    width: 50vw;
+    text-shadow:  3px 3px 3px black;
+}
+.folha{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+div{
+    font-family: 'siracha',Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+    font-size: 4vw;
+    padding: 30px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
