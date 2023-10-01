@@ -53,7 +53,8 @@ header p{
 }
 #base{
     background-color: rgba(7, 7, 7, 0.263);
-    width: 40vw;
+    display: inline-block;
+    padding: 10px;
     text-shadow:  3px 3px 3px black;
 }
 .folha{
