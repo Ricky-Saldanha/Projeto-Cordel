@@ -7,7 +7,6 @@
     font-family: 'siracha' ;
     src: url('fontes/Sriracha-Regular.ttf');
 }
-
 *{
     margin: 0px;
     padding: 0px;
@@ -27,9 +26,7 @@ header h1{
     font-family: 'passion',Arial, Helvetica, sans-serif;
     font-size: 9vw;
     padding-bottom:25px;
-    
-    
-
+     
 }
 header a{
     text-decoration: none;
