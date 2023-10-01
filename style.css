@@ -1,0 +1,39 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'passion';
+    src: url('fontes/PassionOne-Bold.ttf');
+}
+@font-face {
+    font-family: 'siracha' ;
+    src: url('fontes/Sriracha-Regular.ttf');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: darkgray;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    pad
+}
+header h11{
+    font-family: 'passion',Arial, Helvetica, sans-serif;
+    font-size: 9vh;
+    padding-bottom: 25px;
+    width: 60px;
+    
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+header p{
+    padding-bottom: 50px;
+}
